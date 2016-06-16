@@ -1,0 +1,36 @@
+﻿
+<ion-view view-title="Cek Kualitas Lele">
+    <ion-content>
+        <div class="im-wrapper">
+        <h4 class="border-top"><i class="icon ion-edit"></i> </h4>
+            <div class="list">
+                <div class="list">
+                    <label class="item item-input item-select">
+                    <div class="input-label">
+                    Jenis Kelamin
+                    </div>
+                    <select ng-model="data.jenisKelamin">
+                        <option value="Jantan" selected>Jantan</option>
+                        <option value="Betina">Betina</option>
+                    </select>
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">Usia Lele</span>
+                    <input type="number" placeholder="Usia Lele" ng-model="data.usia">
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">Berat Lele</span>
+                    <input type="number" placeholder="Berat Lele" ng-model="data.berat">
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">Panjang Lele</span>
+                    <input type="number" placeholder="Panjang Lele" ng-model="data.panjang">
+                </label>
+               
+                <button class="button button-block button-calm ink" data-ink-color="#9DEAFF" data-ink-opacity="1" ng-click="tambah()">
+                    Cek Kualitas
+                </button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

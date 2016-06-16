@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\workspace\lele\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3a27cba0ad4864f30b031b7eda7413b79b95c74e">
+        <dex dex="D:\workspace\lele\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-unspecified-release_b92750a6a6a315b11cc479bd47e86328fea07db8.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+﻿
+<ion-view view-title="Laporan">
+    <ion-content>
+        <div class="im-wrapper">
+            <!-- Ionic Components -->
+            <h4 class="border-top"><i class="icon ion-ios-list-outline"></i> List Lele</h4>
+            <div class="list">
+                <a class="item" ng-repeat="laporan in laporana" href="#/app/detail/{{laporan.idLaporan}}">
+        {{laporan.waktu}}
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
